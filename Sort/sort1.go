@@ -19,6 +19,10 @@ func (p people) Less(i, j int) bool {
 	} else {
 		return false
 	}
+
+
+	//OR
+	// return p[i]<p[j]
 }
 
 func (p people) Swap(i, j int)  {
