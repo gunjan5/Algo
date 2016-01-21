@@ -9,12 +9,13 @@ import (
 
 
 func main() {
-	var s sort.StringSlice
+	//var s sort.StringSlice
 
-	s=[]string{"Zeno", "John", "Al", "jenny"}
+	s:=[]string{"Zeno", "John", "Al", "jenny"}
 
 	fmt.Println(s)
-	sort.Sort(s)
+	sort.Strings(s)
+	//sort.Sort(s)
 	fmt.Println(s)
 
 
