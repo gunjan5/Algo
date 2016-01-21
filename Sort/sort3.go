@@ -14,10 +14,14 @@ func main() {
 	//var n sort.IntSlice
 
 	n:=[]int{7,4,8,2,-9,12,-23,32,3}
-	
-	sort.Sort(sort.IntSlice(n))
 
+	sort.Sort(sort.Reverse(sort.IntSlice(n)))
+	
+	//sort.Sort(sort.IntSlice(n))
+	fmt.Printf("\n %T \n",sort.Reverse(sort.IntSlice(n)))
 	fmt.Println(n)
+
+	//fmt.Println(n)
 
 
 }
